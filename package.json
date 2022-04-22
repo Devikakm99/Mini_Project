@@ -1,0 +1,27 @@
+{
+  "name": "mini_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/main/node/index.js",
+    "start:dev": "nodemon src/main/node/index.ts",
+    "build": "tsc -b ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devikakm99/Mini_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Devikakm99/Mini_Project/issues"
+  },
+  "homepage": "https://github.com/Devikakm99/Mini_Project#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.25",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
